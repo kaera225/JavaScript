@@ -1,0 +1,67 @@
+* {
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    transition: .5s;
+}
+
+img {
+    margin: 0 auto;
+    height: 200px;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.mouseEvent {
+    border: 6px solid salmon;
+    width: 220px;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+.tehmeContainer {
+    position: fixed;
+    top: 0px;
+}
+
+.theme {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#dark {
+    background-color: black;
+}
+
+#salmon {
+    background-color: salmon;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+.darkTheme {
+    background-color: black;
+    color: white;
+}
+
+.salmonTheme {
+    background-color: salmon;
+    color: white;
+}
+
+.yellowTheme {
+    background-color: yellow;
+    color: white;
+}
